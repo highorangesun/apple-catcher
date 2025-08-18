@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Милый котик</title>
+  <desc id="desc">Сидящий улыбающийся кот с румянцем и завитым хвостом в плоском стиле</desc>
+  <defs>
+    <linearGradient id="fur" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#F2D9C4"/>
+      <stop offset="100%" stop-color="#E7C3A6"/>
+    </linearGradient>
+    <linearGradient id="ear" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#FFC7D1"/>
+      <stop offset="100%" stop-color="#F5A7B6"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="256" cy="420" rx="140" ry="28" fill="#000" opacity="0.12"/>
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="256" cy="310" rx="120" ry="120" fill="url(#fur)"/>
+    <ellipse cx="256" cy="340" rx="78" ry="72" fill="#F8E9DD"/>
+
+    <path d="M360 345
+             q 70 10 70 60
+             q 0 40-40 40
+             q -35 0 -50 -30
+             q 15 10 32 10
+             q 28 0 28-26
+             q 0-28-46-38
+             q -10-2 6-16z"
+          fill="url(#fur)"/>
+
+    <g transform="translate(0,-40)">
+      <circle cx="256" cy="220" r="90" fill="url(#fur)"/>
+
+      <path d="M186 190 L152 140 Q184 140 202 168 Z" fill="url(#fur)"/>
+      <path d="M326 190 L360 140 Q328 140 310 168 Z" fill="url(#fur)"/>
+      <path d="M186 190 L202 168 Q184 168 166 182 Z" fill="url(#ear)"/>
+      <path d="M326 190 L310 168 Q328 168 346 182 Z" fill="url(#ear)"/>
+
+      <circle cx="226" cy="220" r="10" fill="#2B2B2B"/>
+      <circle cx="286" cy="220" r="10" fill="#2B2B2B"/>
+      <circle cx="222" cy="216" r="3" fill="#FFFFFF" opacity="0.9"/>
+      <circle cx="282" cy="216" r="3" fill="#FFFFFF" opacity="0.9"/>
+
+      <ellipse cx="206" cy="242" rx="18" ry="10" fill="#FFA7B3" opacity="0.65"/>
+      <ellipse cx="306" cy="242" rx="18" ry="10" fill="#FFA7B3" opacity="0.65"/>
+
+      <path d="M246 236 Q256 244 266 236 Q256 234 246 236 Z" fill="#F29CA7"/>
+      <path d="M236 252 q 20 20 40 0" fill="none" stroke="#2B2B2B" stroke-width="4" stroke-linecap="round"/>
+
+      <g stroke="#2B2B2B" stroke-width="3" stroke-linecap="round" opacity="0.8">
+        <path d="M198 248 h-36"/>
+        <path d="M198 258 h-40"/>
+        <path d="M314 248 h36"/>
+        <path d="M314 258 h40"/>
+      </g>
+    </g>
+
+    <g>
+      <ellipse cx="210" cy="392" rx="28" ry="16" fill="url(#fur)"/>
+      <ellipse cx="302" cy="392" rx="28" ry="16" fill="url(#fur)"/>
+      <g fill="#F8B6C1" opacity="0.9">
+        <circle cx="200" cy="392" r="4"/>
+        <circle cx="210" cy="392" r="5"/>
+        <circle cx="220" cy="392" r="4"/>
+        <circle cx="292" cy="392" r="4"/>
+        <circle cx="302" cy="392" r="5"/>
+        <circle cx="312" cy="392" r="4"/>
+      </g>
+    </g>
+
+    <ellipse cx="296" cy="210" rx="28" ry="22" fill="#EFC7AC" opacity="0.65" transform="rotate(8 296 210)"/>
+  </g>
+
+  <g opacity="0.6">
+    <path d="M84 110 l8 14 l16 2 l-12 10 l3 16 l-15-8 l-15 8 l3-16 l-12-10 l16-2 Z" fill="#FFD66E"/>
+    <path d="M432 96 l6 10 l12 2 l-9 8 l2 12 l-11-6 l-11 6 l2-12 l-9-8 l12-2 Z" fill="#B7E4F9"/>
+    <circle cx="72" cy="360" r="6" fill="#B7E4F9"/>
+    <circle cx="440" cy="360" r="6" fill="#FFD66E"/>
+  </g>
+</svg>

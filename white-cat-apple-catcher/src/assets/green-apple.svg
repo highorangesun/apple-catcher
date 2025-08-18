@@ -1,0 +1,41 @@
+<svg width="1024" height="1024" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="appleGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A8FF4D"/>
+      <stop offset="100%" stop-color="#3CB928"/>
+    </linearGradient>
+    <radialGradient id="highlight" cx="35%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leafGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7BD389"/>
+      <stop offset="100%" stop-color="#2E9C5D"/>
+    </linearGradient>
+    <linearGradient id="stemBrown" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B5A3C"/>
+      <stop offset="100%" stop-color="#6E462E"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M256 140
+             C 210 140, 168 168, 160 210
+             C 148 272, 190 340, 256 364
+             C 322 340, 364 272, 352 210
+             C 344 168, 302 140, 256 140 Z"
+          fill="url(#appleGreen)"/>
+    <path d="M236 150 C 256 162, 272 162, 292 150" fill="none" stroke="#3CB928" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+    <ellipse cx="200" cy="200" rx="56" ry="40" fill="url(#highlight)" transform="rotate(-18 200 200)"/>
+    <path d="M256 142
+             q 0 -18 14 -28
+             q 12 -8 26 -8"
+          fill="none" stroke="url(#stemBrown)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M310 108
+             q -14 18 -36 24
+             q 26 10 46 2
+             q 20 -8 28 -26
+             q -22 -4 -38 0 Z"
+          fill="url(#leafGreen)"/>
+    <path d="M312 110 q 8 18 -6 32" fill="none" stroke="#1F6F45" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

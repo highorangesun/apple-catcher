@@ -1,0 +1,21 @@
+{
+  "name": "white-cat-apple-catcher",
+  "version": "1.0.0",
+  "description": "A simple HTML5 game where a white cat catches falling apples from a tree.",
+  "main": "src/game.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "game",
+    "html5",
+    "javascript",
+    "cat",
+    "apples"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
